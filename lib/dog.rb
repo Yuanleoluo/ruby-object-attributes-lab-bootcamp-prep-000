@@ -1,9 +1,13 @@
 class Dog
-  def name = (a)
+  def name=(a)
     @name = a
   end
 
-  def breed = (b)
+  def name
+    @name
+  end
+
+  def breed=(b)
     @breed = b
   end
 end
